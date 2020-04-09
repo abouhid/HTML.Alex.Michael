@@ -1,0 +1,34 @@
+html
+{
+  display: block;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: #3334;
+}
+
+body
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+}
+.box
+{
+    border: 2px solid black;
+    background-color: white;
+    padding: 40px;
+    grid-column: 2;
+}
+p
+{
+
+    padding: 4px;
+    grid-column: 2;
+}
+
+.inputs
+{
+    display: grid;
+  grid-template-rows: 20px 20px 20px; 
+      
+
+}

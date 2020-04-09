@@ -2,19 +2,21 @@
 
 <html>
   <head> 
-    <h1 id="title">freeCodeCamp Survey Form</h1>    
+    <h1 id="title">Pair Programming Survey Form</h1>    
   <head>
     
    <body>
-     <p id="description">Form to Join freeCodeCamp</p>
+      <p id="description">Form to Join Microverse Program</p>
+     <div class="box">
+    
    <form id="survey-form">
      
+     <div class="inputs">
      <label id="name-label">Name</label>
      <input id="name"
      placeholder="Enter your name">
-     
-     <label id="email-label">E-mail</label>
-     
+       
+     <label id="email-label">E-mail</label>   
      <input id="email" 
             type="email"
             pattern=[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,} 
@@ -25,6 +27,7 @@
             min="10"
             max="99"
      placeholder="Enter your age">
+     </div>
       <p>Which option best describes your current role?</p>
       <select id="dropdown" name="role" class="form-control" required>
         <option disabled selected value>Select current role</option>
@@ -93,6 +96,25 @@
         />continuos learning</label>
       <label>
         </div>
+          <div class="form-group">
+      <p>Any comments or suggestions?</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your comment here..."
+      ></textarea>
+    </div>
+
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    </div>
+        
+        
+        
+        
      </form>
-     
+        </div>
    </body>
