@@ -9,7 +9,7 @@ html
 body
 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 2fr 1fr ;
 }
 .box
 {
@@ -28,7 +28,7 @@ p
 .inputs
 {
     display: grid;
-  grid-template-rows: 20px 20px 20px; 
+  grid-template-rows: repeat(20px); 
       
 
 }
